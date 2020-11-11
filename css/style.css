@@ -1,0 +1,118 @@
+/* UTILITY E ALTRE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white {
+  color: #fff;
+}
+
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
+.button-colors {
+  color: #fff;
+  background-color: #6ca70d;
+  border: none;
+  padding: 10px 5px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.container {
+  width: 1500px;
+  height: 960px;
+  margin: 0 auto;
+}
+/* /UTILITY E ALTRE */
+
+/* HEADER */
+header {
+  background-color: #0C325A;
+  height: 600px;
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul > li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav img {
+  padding: 5px;
+}
+
+.header-bg {
+  width: 980px;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.content-container {
+  width: 500px;
+  margin-left: 100px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.content-container h1 {
+  font-size: 50px;
+}
+/* /HEADER */
+
+/* MID SECTION */
+.bottom-container {
+  height: 200px;
+  background-color: #d3d3d3;
+  text-align: center;
+  position: relative;
+}
+
+.content-bottom {
+  position: absolute;
+  top: 50px;
+  left: 500px;
+  line-height: 50px;
+}
+
+/* /MID SECTION */
+
+/* BUTTONS */
+.first-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+  outline: none;
+}
+
+.second-button {
+  color: #fff;
+  background-color: #6ca70d;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  outline: none;
+}
+/* /BUTTONS */
