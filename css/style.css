@@ -1,8 +1,14 @@
-/* UTILITY E ALTRE */
+/* UTILITY E GENERALI */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.container {
+  width: 1500px;
+  height: 1960px;
+  margin: 0 auto;
 }
 
 .uppercase {
@@ -30,12 +36,29 @@
   outline: none;
 }
 
-.container {
-  width: 1500px;
-  height: 960px;
-  margin: 0 auto;
+.img-resize {
+  width: 250px;
+  height: 250px;
 }
-/* /UTILITY E ALTRE */
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.mid-container h2 {
+  font-size: 30px;
+  color: #8ac21f;
+  margin: 40px 0;
+}
+
+.hr-resize {
+  width: 25%;
+  margin: auto;
+}
+
+/* /UTILITY E GENERALI */
 
 /* HEADER */
 header {
@@ -94,6 +117,38 @@ nav img {
   line-height: 50px;
 }
 
+.mid-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 600px;
+  padding-top: 50px;
+}
+
+.column-1 {
+  width: 33.33%;
+  text-align: center;
+}
+.column-2 {
+  width: 33.33%;
+  text-align: center;
+}
+.column-3 {
+  width: 33.33%;
+  text-align: center;
+}
+
+.mid-container p {
+  line-height: 30px;
+  font-size: 20px;
+  margin-top: 30px;
+  padding: 0 30px;
+}
+
+.mid-container-hr {
+  width: 100%;
+  border-color: #d3d3d3;
+  margin: 50px 0;
+}
 /* /MID SECTION */
 
 /* BUTTONS */
