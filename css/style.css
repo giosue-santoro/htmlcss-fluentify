@@ -7,7 +7,7 @@
 
 .container {
   width: 1500px;
-  height: 1960px;
+  height: 2360px;
   margin: 0 auto;
 }
 
@@ -59,6 +59,27 @@
 }
 
 /* /UTILITY E GENERALI */
+
+/* BUTTONS */
+.first-button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 40px;
+  outline: none;
+}
+
+.second-button {
+  color: #fff;
+  background-color: #6ca70d;
+  border: none;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  outline: none;
+}
+/* /BUTTONS */
 
 /* HEADER */
 header {
@@ -131,8 +152,8 @@ ul > li {
 
 .mid-container {
   width: 1200px;
-  margin: 0 auto;
   height: 600px;
+  margin: 0 auto;
   padding-top: 50px;
 }
 
@@ -163,23 +184,35 @@ ul > li {
 }
 /* /MID SECTION */
 
-/* BUTTONS */
-.first-button {
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 40px;
-  outline: none;
+/* LOW SECTION */
+.low-container {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
 }
 
-.second-button {
-  color: #fff;
-  background-color: #6ca70d;
-  border: none;
-  padding: 20px;
-  border-radius: 5px;
-  margin-top: 20px;
-  outline: none;
+.container-low-img {
+  width: 50%;
 }
-/* /BUTTONS */
+
+.low-paragraph{
+  width: 500px;
+  height: 500px;
+}
+
+.low-paragraph h2 {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.low-paragraph p {
+  line-height: 35px;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.low-paragraph a {
+  font-size: 22px;
+  color: #2d78ad;
+}
+/* /LOW SECTION */
