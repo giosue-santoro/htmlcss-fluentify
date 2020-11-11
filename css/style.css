@@ -67,6 +67,21 @@ header {
   position: relative;
 }
 
+.logo-container {
+  margin: 0 30px 0 100px;
+  text-align: center;
+  padding: 5px;
+}
+
+.first-list-container {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.second-list-container {
+  margin-right: 30px;
+}
+
 nav a {
   text-decoration: none;
   color: #fff;
@@ -74,11 +89,8 @@ nav a {
 
 ul > li {
   display: inline-block;
-  padding: 20px;
-}
-
-nav img {
-  padding: 5px;
+  padding: 10px;
+  font-size: 15px;
 }
 
 .header-bg {
